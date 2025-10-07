@@ -64,7 +64,12 @@ nav {
 
 .logo h1 {
     font-size: 24px;
-    color: #007bff;
+    color: #ff7b00;
+}
+
+.logo h2{
+    font-size: 18px;
+    color:#000000
 }
 
 .nav-links {
@@ -398,6 +403,8 @@ nav {
         width: 100%;
     }
 
+   
+
     .card-container {
         flex-direction: column;
         align-items: center;
@@ -520,10 +527,6 @@ nav {
     flex-wrap: wrap;
 }
 
-.logo h1 {
-    font-size: 24px;
-    color: #007bff;
-}
 
 .nav-links {
     display: flex;
@@ -753,11 +756,6 @@ nav {
         align-items: flex-start;
     }
 
-    .logo{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
 
     .card-container {
         flex-direction: column;
