@@ -15,10 +15,12 @@
     <!-- Navigation -->
     <nav>
         <div class="logo">
-            <div>
-                <h1>BrainPlus</h1>
-                <h2>ACADEMY</h2>
-            </div>
+
+            <!-- <h1>BrainPlus</h1>
+                <h2>ACADEMY</h2> -->
+
+            <img src="images/logo.jpg" alt="">
+
             <button id="nav-toggle" class="toggle-button" onclick="">☰</button>
             <!-- <button class="btn-primary">Join Now</button> -->
 
@@ -82,23 +84,76 @@
                 <img src="images\admission3.jpg" alt="1st to 12th">
                 <h3>1st to 12th All Subjects</h3>
                 <p>Comprehensive coverage of all subjects, from class 1st to 12th by exper faculties.</p>
-                <button class="btn-secondary">Learn More</button>
+                <button class="learn-more-btn">Learn More</button>
             </div>
             <div class="course">
                 <img src="images\cuet2.jpg" alt="CUET & SSC">
                 <h3>CUET & SSC</h3>
                 <p>Crack CUET, SSC & other competitve under guidance of our experinced faculties.</p>
-                <button class="btn-secondary">Learn More</button>
+                <button class="learn-more-btn">Learn More</button>
             </div>
             <div class="course">
                 <img src="images\comp1.jpg" alt="Computer Classes">
                 <h3>Computer Classes</h3>
                 <p>Learn the basics of Python, JavaScript, and get certified in DCA, ADCA, POWER BI, VIDEO EDITING,
                     GRAPHICS DESIGNING.</p>
-                <button class="btn-secondary">Learn More</button>
+                <button class="learn-more-btn">Learn More</button>
             </div>
         </div>
     </div>
+
+
+    <!-- COURSE POPUP MODAL -->
+    <div id="courseModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+
+            <h2 id="modal-title">Course Title</h2>
+            <p id="modal-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac dui quis nisi luctus posuere.
+            </p>
+
+            <!-- Teachers Section -->
+            <div class="teachers-section">
+                <h3>Meet Your Teachers</h3>
+                <div class="teacher-cards">
+                    <div class="teacher-card">
+                        <img src="assets/teacher1.jpg" alt="Teacher 1">
+                        <h4>Dr. Jane Doe</h4>
+                        <p>Expert in Data Science</p>
+                    </div>
+                    <div class="teacher-card">
+                        <img src="assets/teacher2.jpg" alt="Teacher 2">
+                        <h4>Prof. John Smith</h4>
+                        <p>AI & ML Specialist</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curriculum Section -->
+            <div class="curriculum-section">
+                <h3>Curriculum Overview</h3>
+                <ul>
+                    <li>Introduction & Fundamentals</li>
+                    <li>Hands-on Practical Sessions</li>
+                    <li>Advanced Topics & Real Projects</li>
+                    <li>Final Assessment</li>
+                </ul>
+            </div>
+
+            <!-- Gallery Section -->
+            <div class="gallery-section">
+                <h3>Gallery</h3>
+                <div class="gallery-container">
+                    <img src="assets/course1.jpg" alt="">
+                    <img src="assets/course2.jpg" alt="">
+                    <img src="assets/course3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of modal section -->
 
 
     <!-- Image Slider Section -->
@@ -112,14 +167,14 @@
                 <img src="images/gallery5.jpg" alt="Slide 5">
 
                 <img src="images/gallery6.jpg" alt="Slide 6">
-                <img src="images/gallery7.jpg" alt="Slide 7">
-                <img src="images/gallery8.jpg" alt="Slide 8">
+                <!-- <img src="images/gallery7.jpg" alt="Slide 7"> -->
+                <!-- <img src="images/gallery8.jpg" alt="Slide 8"> -->
                 <img src="images/gallery9.jpg" alt="Slide 9">
-                <img src="images/gallery10.jpg" alt="Slide 10">
+                <!-- <img src="images/gallery10.jpg" alt="Slide 10"> -->
 
                 <img src="images/gallery11.jpg" alt="Slide 11">
                 <img src="images/gallery12.jpg" alt="Slide 12">
-                <img src="images/gallery13.jpg" alt="Slide 13">
+                <!-- <img src="images/gallery13.jpg" alt="Slide 13"> -->
                 <img src="images/gallery14.jpg" alt="Slide 14">
                 <img src="images/gallery15.jpg" alt="Slide 15">
 
@@ -128,6 +183,30 @@
                 <img src="images/gallery18.jpg" alt="Slide 18">
                 <img src="images/gallery19.jpg" alt="Slide 19">
                 <img src="images/gallery20.jpg" alt="Slide 20">
+
+                <img src="images/gallery21.jpg" alt="Slide 16">
+                <img src="images/gallery22.jpg" alt="Slide 17">
+                <!-- <img src="images/gallery23.jpg" alt="Slide 18"> -->
+                <img src="images/gallery24.jpg" alt="Slide 19">
+                <img src="images/gallery25.jpg" alt="Slide 20">
+
+                <img src="images/gallery26.jpg" alt="Slide 16">
+                <img src="images/gallery27.jpg" alt="Slide 17">
+                <img src="images/gallery28.jpg" alt="Slide 18">
+                <img src="images/gallery29.jpg" alt="Slide 19">
+                <img src="images/gallery30.jpg" alt="Slide 20">
+
+                <img src="images/gallery31.jpg" alt="Slide 16">
+                <img src="images/gallery32.jpg" alt="Slide 17">
+                <img src="images/gallery33.jpg" alt="Slide 18">
+                <img src="images/gallery34.jpg" alt="Slide 19">
+                <img src="images/gallery35.jpg" alt="Slide 20">
+
+                <img src="images/gallery36.jpg" alt="Slide 16">
+                <img src="images/gallery37.jpg" alt="Slide 17">
+                <img src="images/gallery38.jpg" alt="Slide 18">
+                <img src="images/gallery39.jpg" alt="Slide 19">
+                <img src="images/gallery40.jpg" alt="Slide 20">
             </div>
         </div>
     </section>
@@ -183,11 +262,19 @@
             <div class="footer-section social-section">
                 <h3>Follow Us</h3>
                 <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
-                    <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-                    <a href="https://www.instagram.com/brainplusacademy6/?utm_source=ig_web_button_share_sheet" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-                    <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="https://www.instagram.com/brainplusacademy6/?utm_source=ig_web_button_share_sheet"
+                        target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+                    <a href="https://wa.link/rlqb09" target="_blank"><i class="fab fa-whatsapp fa-lg"></i></a>
                 </div>
+                <div class="qr">
+                    <a href="https://whatsapp.com/channel/0029Vb6POtv65yD5Eu0wuO0S" target="_blank">
+                        <img src="images/whatsapp channel qr.jpg" alt="">
+                    </a>
+                </div>
+
             </div>
         </div>
 
